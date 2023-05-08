@@ -15,7 +15,7 @@ data and train & evaluate models, as well as the necessary data for training you
 
 Clone this repository or your fork thereof in the desired place:
 
-    git clone https://github.com/emmavdbold/mt-exercise-4
+    git clone https://github.com/moritz-steiner/mt-exercise-4
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
 
