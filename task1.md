@@ -1,5 +1,8 @@
 ## All instances of Layer Normalization in JoeyNMT
 
+Our task is to "write some 'missing documentation' for Layer Normalization in JoeyNMT. We should consider the following aspects: Where and how are pre- and post-norm implemented? What is the default behaviour? What are the specific differences between the two options and how do you control them?
+
+
 ### encoders.py
 
 In `encoders.py` layer normalization is implemented on lines 215/216 and 252/253
