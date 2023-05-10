@@ -15,7 +15,9 @@ In `encoders.py` layer normalization is implemented on lines 215/216 and 252/253
 253:            x = self.layer_norm(x)
 
 ```
-Here, it is important to note that when the layers are built, the default value for layer_norm is pre, unlike in decoders.py. This means: When we instantiate this class not passing another value for layer normalization, we will automatically have the TransformerEncoder use layer normalization (nn.LayerNorm(hidden_size, eps=1e-6)). If we instantiate the class and do pass the value "post" for layer_norm, then the TransformerEncoder will not be using layer normalization - the attribute "self.layer_norm" will be equal to None, which is checked in the forward function before normalizing the desired layers (i.e. as per default). It is thus possible to change this value, but __I do have to check where__
+Here, it is important to note that when the layers are built, the default value for layer_norm is pre, unlike in decoders.py. This means: When we instantiate this class not passing another value for layer normalization, we will automatically have the TransformerEncoder use layer normalization (nn.LayerNorm(hidden_size, eps=1e-6)). If we instantiate the class and do pass the value "post" for layer_norm, then the TransformerEncoder will not be using layer normalization - the attribute "self.layer_norm" will be equal to None, which is checked in the forward function before normalizing the desired layers (i.e. as per default). It is thus possible to change this value, namely when calling the forward function of a to-be-trained model.
+
+We can use the TransformerEncoder as argument for the class Model, which starts on line 25 (https://github.com/lucaggett/joeynmt/blob/04d48e9112a216ec05a968332c85bc187e0c93c6/joeynmt/model.py#L25). The kwargs given to the class method "forward", starting in line 76 (https://github.com/lucaggett/joeynmt/blob/04d48e9112a216ec05a968332c85bc187e0c93c6/joeynmt/model.py#LL76C1-L76C1), will further be used for the class methods ```python _encode_decode ```, and, since this model uses these two functions, also in ```python _encode ``` and ```python decode ```. This means: When we call the forward function for our model, we have the possibility to define whether we want a specific layer normalization.
 
 ### decoders.py
 ```python
@@ -27,10 +29,20 @@ Here, it is important to note that when the layers are built, the default value 
 589:            x = self.layer_norm(x)
 
 ```
-Here, it is important to note that when the layers are built, the default value for layer_norm is post, unlike in encoders.py. Additionally, the rest is very similarly built: When we instantiate this class not passing another value for layer normalization, we will automatically have the TransformerDecoder use layer normalization (nn.LayerNorm(hidden_size, eps=1e-6)). If we instantiate the class and do pass the value "pre" for layer_norm, then the TransformerDecoder will not be using layer normalization - the attribute "self.layer_norm" will be equal to None, which is checked in the forward function before normalizing the desired layers (i.e. as per default). It is thus possible to change this value, but __I do have to check where__
+Here, it is important to note that when the layers are built, the default value for layer_norm is post, unlike in encoders.py. Additionally, the rest is very similarly built: When we instantiate this class not passing another value for layer normalization, we will automatically have the TransformerDecoder use layer normalization (nn.LayerNorm(hidden_size, eps=1e-6)). If we instantiate the class and do pass the value "pre" for layer_norm, then the TransformerDecoder will not be using layer normalization - the attribute "self.layer_norm" will be equal to None, which is checked in the forward function before normalizing the desired layers (i.e. as per default). It is thus possible to change this value, namely when calling the forward function of a to-be-trained model, as described below for the model.py file.
+
+The TransformerDecoder is used in the files search.py and model.py.
+
+In search.py, we have a function called "greedy", which takes kwargs as an argument, which it then gives to the TransformerDecoder. Naturally, this includes the information whether post or pre layer normalization is desired (via kwargs, so it's optional to define them). Interestingly, the information does not seem to be used anywhere, so my guess is that they need the model after training.
+
+Much more interesting is the use in model.py. This is of course very similar to the TransformerEncoder. We can use the TransformerDecoder as argument for the class Model, which starts on line 25 (https://github.com/lucaggett/joeynmt/blob/04d48e9112a216ec05a968332c85bc187e0c93c6/joeynmt/model.py#L25). The kwargs given to the class method "forward", starting in line 76 (https://github.com/lucaggett/joeynmt/blob/04d48e9112a216ec05a968332c85bc187e0c93c6/joeynmt/model.py#LL76C1-L76C1), will further be used for the class methods ```python _encode_decode ```, and, since this model uses these two functions, also in ```python _encode ``` and ```python decode ```. This means: When we call the forward function for our model, we have the possibility to define whether we want a specific layer normalization.
+
+The TransformerDecoder is also used in the function "build_model", which starts on line 259, as you can see here: https://github.com/lucaggett/joeynmt/blob/04d48e9112a216ec05a968332c85bc187e0c93c6/joeynmt/model.py#LL259C1-L259C1
+
+The model specifications are contained in the dictionary cfg, which is given to the function as an input. This is how the model is built specifically, and how the information is  which is relevant to know, but the real use of layer normalization is defined in the forward function, as described above.
 
 ### transformer_layers.py
-in transformer_layers.py, 
+We have three classes that are using layer normalization in this file: PositionwiseFeedForward, TransformerEncoderLayer, and TransformerDecoderLayer. The latter two both use the former for one of their class attributes, as you will see below.
 
 ```python
 141        self.layer_norm = nn.LayerNorm(input_size, eps=1e-6)
