@@ -1,0 +1,311 @@
+2023-04-23 18:50:41,858 - INFO - joeynmt.training - Epoch   1, Step:      500, Batch Loss:     3.909932, Batch Acc: 0.097065, Tokens per Sec:     6411, Lr: 0.000300
+2023-04-23 18:50:41,858 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 18:51:37,748 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   4.04, ppl:  56.61, acc:   0.09, generation: 55.8793[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 18:52:49,240 - INFO - joeynmt.training - Epoch   1, Step:     1000, Batch Loss:     3.613981, Batch Acc: 0.105015, Tokens per Sec:     6611, Lr: 0.000300
+2023-04-23 18:52:49,240 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 18:53:47,897 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   3.91, ppl:  49.93, acc:   0.09, generation: 58.6506[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 18:54:58,826 - INFO - joeynmt.training - Epoch   1, Step:     1500, Batch Loss:     3.582051, Batch Acc: 0.119863, Tokens per Sec:     6446, Lr: 0.000300
+2023-04-23 18:54:58,826 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 18:55:56,225 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   3.81, ppl:  45.33, acc:   0.10, generation: 57.3933[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 18:57:07,036 - INFO - joeynmt.training - Epoch   1, Step:     2000, Batch Loss:     3.213590, Batch Acc: 0.174402, Tokens per Sec:     6492, Lr: 0.000300
+2023-04-23 18:57:07,036 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 18:58:02,038 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   3.56, ppl:  35.25, acc:   0.14, generation: 54.9949[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 18:59:12,466 - INFO - joeynmt.training - Epoch   1, Step:     2500, Batch Loss:     3.083561, Batch Acc: 0.214298, Tokens per Sec:     6337, Lr: 0.000300
+2023-04-23 18:59:12,467 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:00:07,951 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   3.35, ppl:  28.44, acc:   0.17, generation: 55.4793[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:01:18,803 - INFO - joeynmt.training - Epoch   1, Step:     3000, Batch Loss:     2.830588, Batch Acc: 0.236006, Tokens per Sec:     6528, Lr: 0.000300
+2023-04-23 19:01:18,803 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:02:00,204 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   3.25, ppl:  25.79, acc:   0.18, generation: 41.3964[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:03:11,410 - INFO - joeynmt.training - Epoch   1, Step:     3500, Batch Loss:     2.724166, Batch Acc: 0.252649, Tokens per Sec:     6438, Lr: 0.000300
+2023-04-23 19:03:11,410 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:03:38,073 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   3.17, ppl:  23.77, acc:   0.20, generation: 26.6584[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:04:48,638 - INFO - joeynmt.training - Epoch   1, Step:     4000, Batch Loss:     2.649425, Batch Acc: 0.271317, Tokens per Sec:     6518, Lr: 0.000300
+2023-04-23 19:04:48,638 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:05:24,621 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   3.11, ppl:  22.40, acc:   0.21, generation: 35.9784[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:06:35,485 - INFO - joeynmt.training - Epoch   2, Step:     4500, Batch Loss:     2.810916, Batch Acc: 0.286563, Tokens per Sec:     6593, Lr: 0.000300
+2023-04-23 19:06:35,485 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:07:03,774 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   3.06, ppl:  21.26, acc:   0.22, generation: 28.2850[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:08:13,931 - INFO - joeynmt.training - Epoch   2, Step:     5000, Batch Loss:     2.529167, Batch Acc: 0.301809, Tokens per Sec:     6531, Lr: 0.000300
+2023-04-23 19:08:13,931 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:08:40,055 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.99, ppl:  19.87, acc:   0.24, generation: 26.1197[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:09:50,752 - INFO - joeynmt.training - Epoch   2, Step:     5500, Batch Loss:     2.498753, Batch Acc: 0.314994, Tokens per Sec:     6601, Lr: 0.000300
+2023-04-23 19:09:50,752 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:10:21,446 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.93, ppl:  18.80, acc:   0.25, generation: 30.6899[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:11:32,327 - INFO - joeynmt.training - Epoch   2, Step:     6000, Batch Loss:     2.492829, Batch Acc: 0.332375, Tokens per Sec:     6575, Lr: 0.000300
+2023-04-23 19:11:32,327 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:12:06,146 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.87, ppl:  17.61, acc:   0.27, generation: 33.8146[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:13:16,682 - INFO - joeynmt.training - Epoch   2, Step:     6500, Batch Loss:     2.478929, Batch Acc: 0.346698, Tokens per Sec:     6390, Lr: 0.000300
+2023-04-23 19:13:16,682 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:13:44,855 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.81, ppl:  16.55, acc:   0.28, generation: 28.1693[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:14:55,336 - INFO - joeynmt.training - Epoch   2, Step:     7000, Batch Loss:     2.417219, Batch Acc: 0.358473, Tokens per Sec:     6482, Lr: 0.000300
+2023-04-23 19:14:55,336 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:15:33,989 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.74, ppl:  15.42, acc:   0.31, generation: 38.6483[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:16:44,386 - INFO - joeynmt.training - Epoch   2, Step:     7500, Batch Loss:     2.334781, Batch Acc: 0.375263, Tokens per Sec:     6657, Lr: 0.000300
+2023-04-23 19:16:44,386 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:17:16,967 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.66, ppl:  14.26, acc:   0.33, generation: 32.5765[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:18:27,248 - INFO - joeynmt.training - Epoch   2, Step:     8000, Batch Loss:     2.219333, Batch Acc: 0.397378, Tokens per Sec:     6537, Lr: 0.000300
+2023-04-23 19:18:27,249 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:19:00,860 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.59, ppl:  13.30, acc:   0.34, generation: 33.6067[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:20:11,880 - INFO - joeynmt.training - Epoch   3, Step:     8500, Batch Loss:     2.405701, Batch Acc: 0.415418, Tokens per Sec:     6545, Lr: 0.000300
+2023-04-23 19:20:11,880 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:20:36,528 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.54, ppl:  12.62, acc:   0.36, generation: 24.6439[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:21:46,797 - INFO - joeynmt.training - Epoch   3, Step:     9000, Batch Loss:     2.014251, Batch Acc: 0.426956, Tokens per Sec:     6642, Lr: 0.000300
+2023-04-23 19:21:46,797 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:22:08,780 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.51, ppl:  12.25, acc:   0.36, generation: 21.9791[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:23:19,260 - INFO - joeynmt.training - Epoch   3, Step:     9500, Batch Loss:     2.187581, Batch Acc: 0.427190, Tokens per Sec:     6554, Lr: 0.000300
+2023-04-23 19:23:19,260 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:23:42,487 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.47, ppl:  11.83, acc:   0.37, generation: 23.2228[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:24:53,105 - INFO - joeynmt.training - Epoch   3, Step:    10000, Batch Loss:     2.183217, Batch Acc: 0.437482, Tokens per Sec:     6551, Lr: 0.000300
+2023-04-23 19:24:53,105 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:25:19,360 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.44, ppl:  11.48, acc:   0.38, generation: 26.2509[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:28:08,215 - INFO - joeynmt.training - Epoch   3, Step:    11000, Batch Loss:     1.829715, Batch Acc: 0.445477, Tokens per Sec:     6520, Lr: 0.000300
+2023-04-23 19:28:08,215 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:28:38,361 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.38, ppl:  10.82, acc:   0.39, generation: 30.1422[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:29:48,975 - INFO - joeynmt.training - Epoch   3, Step:    11500, Batch Loss:     2.152073, Batch Acc: 0.448088, Tokens per Sec:     6430, Lr: 0.000300
+2023-04-23 19:29:48,975 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:30:20,091 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.37, ppl:  10.69, acc:   0.39, generation: 31.1113[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:31:30,437 - INFO - joeynmt.training - Epoch   3, Step:    12000, Batch Loss:     2.250395, Batch Acc: 0.449016, Tokens per Sec:     6524, Lr: 0.000300
+2023-04-23 19:31:30,437 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:31:53,422 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.36, ppl:  10.58, acc:   0.39, generation: 22.9806[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:33:04,254 - INFO - joeynmt.training - Epoch   4, Step:    12500, Batch Loss:     2.187512, Batch Acc: 0.469778, Tokens per Sec:     6462, Lr: 0.000300
+2023-04-23 19:33:04,254 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:33:27,618 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.34, ppl:  10.41, acc:   0.40, generation: 23.3598[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:34:38,239 - INFO - joeynmt.training - Epoch   4, Step:    13000, Batch Loss:     2.125194, Batch Acc: 0.469609, Tokens per Sec:     6500, Lr: 0.000300
+2023-04-23 19:34:38,239 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:35:00,851 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.33, ppl:  10.24, acc:   0.41, generation: 22.6085[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:36:11,426 - INFO - joeynmt.training - Epoch   4, Step:    13500, Batch Loss:     2.285730, Batch Acc: 0.472322, Tokens per Sec:     6502, Lr: 0.000300
+2023-04-23 19:36:11,426 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:36:36,896 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.31, ppl:  10.05, acc:   0.41, generation: 25.4663[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:37:47,211 - INFO - joeynmt.training - Epoch   4, Step:    14000, Batch Loss:     2.108016, Batch Acc: 0.476133, Tokens per Sec:     6621, Lr: 0.000300
+2023-04-23 19:37:47,211 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:38:09,348 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.30, ppl:   9.97, acc:   0.41, generation: 22.1336[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:39:19,967 - INFO - joeynmt.training - Epoch   4, Step:    14500, Batch Loss:     2.104625, Batch Acc: 0.477324, Tokens per Sec:     6356, Lr: 0.000300
+2023-04-23 19:39:19,967 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:39:45,910 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.29, ppl:   9.84, acc:   0.42, generation: 25.9388[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:40:57,035 - INFO - joeynmt.training - Epoch   4, Step:    15000, Batch Loss:     1.731178, Batch Acc: 0.479497, Tokens per Sec:     6355, Lr: 0.000300
+2023-04-23 19:40:57,035 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:41:20,128 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.28, ppl:   9.75, acc:   0.42, generation: 23.0886[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:42:30,587 - INFO - joeynmt.training - Epoch   4, Step:    15500, Batch Loss:     1.952465, Batch Acc: 0.478271, Tokens per Sec:     6577, Lr: 0.000300
+2023-04-23 19:42:30,588 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:42:56,948 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.26, ppl:   9.60, acc:   0.42, generation: 26.3558[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:44:07,627 - INFO - joeynmt.training - Epoch   4, Step:    16000, Batch Loss:     1.738739, Batch Acc: 0.479017, Tokens per Sec:     6557, Lr: 0.000300
+2023-04-23 19:44:07,627 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:44:33,053 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.24, ppl:   9.41, acc:   0.43, generation: 25.4219[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:45:44,038 - INFO - joeynmt.training - Epoch   5, Step:    16500, Batch Loss:     1.980648, Batch Acc: 0.499077, Tokens per Sec:     6600, Lr: 0.000300
+2023-04-23 19:45:44,038 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:46:13,403 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.24, ppl:   9.42, acc:   0.43, generation: 29.3601[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:47:24,127 - INFO - joeynmt.training - Epoch   5, Step:    17000, Batch Loss:     1.815832, Batch Acc: 0.493495, Tokens per Sec:     6665, Lr: 0.000300
+2023-04-23 19:47:24,127 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:47:49,013 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.24, ppl:   9.41, acc:   0.43, generation: 24.8813[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:48:59,467 - INFO - joeynmt.training - Epoch   5, Step:    17500, Batch Loss:     1.849616, Batch Acc: 0.497433, Tokens per Sec:     6641, Lr: 0.000300
+2023-04-23 19:48:59,467 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:49:22,211 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.23, ppl:   9.30, acc:   0.43, generation: 22.7398[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:50:33,307 - INFO - joeynmt.training - Epoch   5, Step:    18000, Batch Loss:     1.969988, Batch Acc: 0.502781, Tokens per Sec:     6455, Lr: 0.000300
+2023-04-23 19:50:33,308 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:50:57,640 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.22, ppl:   9.22, acc:   0.43, generation: 24.3280[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:52:08,979 - INFO - joeynmt.training - Epoch   5, Step:    18500, Batch Loss:     1.832282, Batch Acc: 0.492116, Tokens per Sec:     6552, Lr: 0.000300
+2023-04-23 19:52:08,979 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:52:34,434 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.22, ppl:   9.25, acc:   0.43, generation: 25.4507[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:53:46,141 - INFO - joeynmt.training - Epoch   5, Step:    19000, Batch Loss:     1.822588, Batch Acc: 0.494015, Tokens per Sec:     6321, Lr: 0.000300
+2023-04-23 19:53:46,141 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:54:09,702 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.21, ppl:   9.12, acc:   0.43, generation: 23.5568[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:55:20,833 - INFO - joeynmt.training - Epoch   5, Step:    19500, Batch Loss:     1.783619, Batch Acc: 0.499886, Tokens per Sec:     6461, Lr: 0.000300
+2023-04-23 19:55:20,833 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:55:43,161 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.19, ppl:   8.97, acc:   0.44, generation: 22.3238[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 19:56:54,537 - INFO - joeynmt.training - Epoch   5, Step:    20000, Batch Loss:     1.830980, Batch Acc: 0.502281, Tokens per Sec:     6493, Lr: 0.000300
+2023-04-23 19:56:54,537 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 19:57:19,160 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.19, ppl:   8.92, acc:   0.44, generation: 24.6189[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:00:00,374 - INFO - joeynmt.training - Epoch   6, Step:    21000, Batch Loss:     1.606664, Batch Acc: 0.520155, Tokens per Sec:     6531, Lr: 0.000300
+2023-04-23 20:00:00,375 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:00:20,284 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.19, ppl:   8.95, acc:   0.44, generation: 19.9048[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:01:31,144 - INFO - joeynmt.training - Epoch   6, Step:    21500, Batch Loss:     1.704123, Batch Acc: 0.514832, Tokens per Sec:     6495, Lr: 0.000300
+2023-04-23 20:01:31,144 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:01:51,976 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.19, ppl:   8.92, acc:   0.44, generation: 20.8277[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:03:02,982 - INFO - joeynmt.training - Epoch   6, Step:    22000, Batch Loss:     1.610940, Batch Acc: 0.511439, Tokens per Sec:     6442, Lr: 0.000300
+2023-04-23 20:03:02,983 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:03:23,855 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.18, ppl:   8.86, acc:   0.44, generation: 20.8682[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:04:34,888 - INFO - joeynmt.training - Epoch   6, Step:    22500, Batch Loss:     1.907129, Batch Acc: 0.509056, Tokens per Sec:     6520, Lr: 0.000300
+2023-04-23 20:04:34,888 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:04:58,096 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.18, ppl:   8.81, acc:   0.44, generation: 23.2046[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:06:09,272 - INFO - joeynmt.training - Epoch   6, Step:    23000, Batch Loss:     1.658166, Batch Acc: 0.507852, Tokens per Sec:     6431, Lr: 0.000300
+2023-04-23 20:06:09,273 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:06:30,803 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.17, ppl:   8.75, acc:   0.45, generation: 21.5264[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:07:43,063 - INFO - joeynmt.training - Epoch   6, Step:    23500, Batch Loss:     1.761871, Batch Acc: 0.512147, Tokens per Sec:     6507, Lr: 0.000300
+2023-04-23 20:07:43,064 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:08:05,718 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.16, ppl:   8.70, acc:   0.45, generation: 22.6501[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:09:16,971 - INFO - joeynmt.training - Epoch   6, Step:    24000, Batch Loss:     1.811551, Batch Acc: 0.513018, Tokens per Sec:     6488, Lr: 0.000300
+2023-04-23 20:09:16,971 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:09:44,599 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.16, ppl:   8.66, acc:   0.45, generation: 27.6236[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:10:55,510 - INFO - joeynmt.training - Epoch   7, Step:    24500, Batch Loss:     1.621459, Batch Acc: 0.537187, Tokens per Sec:     6540, Lr: 0.000300
+2023-04-23 20:10:55,510 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:11:16,884 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.15, ppl:   8.59, acc:   0.45, generation: 21.3697[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:12:27,783 - INFO - joeynmt.training - Epoch   7, Step:    25000, Batch Loss:     1.896804, Batch Acc: 0.520374, Tokens per Sec:     6415, Lr: 0.000300
+2023-04-23 20:12:27,784 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:12:55,524 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.16, ppl:   8.68, acc:   0.45, generation: 27.7360[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:14:06,646 - INFO - joeynmt.training - Epoch   7, Step:    25500, Batch Loss:     1.766319, Batch Acc: 0.523905, Tokens per Sec:     6505, Lr: 0.000300
+2023-04-23 20:14:06,646 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:14:30,929 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.16, ppl:   8.63, acc:   0.45, generation: 24.2792[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:15:42,242 - INFO - joeynmt.training - Epoch   7, Step:    26000, Batch Loss:     1.943287, Batch Acc: 0.521581, Tokens per Sec:     6485, Lr: 0.000300
+2023-04-23 20:15:42,242 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:16:05,678 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.15, ppl:   8.57, acc:   0.45, generation: 23.4320[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:17:02,490 - INFO - joeynmt.training - Epoch   7, Step:    26400, Batch Loss:     1.910223, Batch Acc: 0.525490, Tokens per Sec:     6500, Lr: 0.000300
+2023-04-23 20:17:16,604 - INFO - joeynmt.training - Epoch   7, Step:    26500, Batch Loss:     1.939979, Batch Acc: 0.524721, Tokens per Sec:     6475, Lr: 0.000300
+2023-04-23 20:17:16,604 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:17:40,560 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.16, ppl:   8.65, acc:   0.45, generation: 23.9522[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:18:51,728 - INFO - joeynmt.training - Epoch   7, Step:    27000, Batch Loss:     1.571695, Batch Acc: 0.525438, Tokens per Sec:     6434, Lr: 0.000300
+2023-04-23 20:18:51,728 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:19:12,234 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.15, ppl:   8.55, acc:   0.45, generation: 20.5029[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:20:23,128 - INFO - joeynmt.training - Epoch   7, Step:    27500, Batch Loss:     1.959675, Batch Acc: 0.518835, Tokens per Sec:     6563, Lr: 0.000300
+2023-04-23 20:20:23,128 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:20:45,037 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.14, ppl:   8.53, acc:   0.45, generation: 21.9051[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:21:55,892 - INFO - joeynmt.training - Epoch   7, Step:    28000, Batch Loss:     1.827811, Batch Acc: 0.521818, Tokens per Sec:     6470, Lr: 0.000300
+2023-04-23 20:21:55,892 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:22:16,640 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.13, ppl:   8.42, acc:   0.46, generation: 20.7438[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:23:27,490 - INFO - joeynmt.training - Epoch   8, Step:    28500, Batch Loss:     1.796872, Batch Acc: 0.535881, Tokens per Sec:     6283, Lr: 0.000300
+2023-04-23 20:23:27,491 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:23:54,193 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.13, ppl:   8.41, acc:   0.46, generation: 26.6978[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:25:05,378 - INFO - joeynmt.training - Epoch   8, Step:    29000, Batch Loss:     1.663304, Batch Acc: 0.536361, Tokens per Sec:     6478, Lr: 0.000300
+2023-04-23 20:25:05,378 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:25:28,347 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.13, ppl:   8.38, acc:   0.46, generation: 22.9642[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:26:39,546 - INFO - joeynmt.training - Epoch   8, Step:    29500, Batch Loss:     1.749006, Batch Acc: 0.534374, Tokens per Sec:     6475, Lr: 0.000300
+2023-04-23 20:26:39,546 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:27:05,814 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.13, ppl:   8.44, acc:   0.45, generation: 26.2635[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:28:16,882 - INFO - joeynmt.training - Epoch   8, Step:    30000, Batch Loss:     1.635196, Batch Acc: 0.537271, Tokens per Sec:     6533, Lr: 0.000300
+2023-04-23 20:28:16,882 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:28:38,593 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.13, ppl:   8.44, acc:   0.45, generation: 21.7061[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:30:39,846 - INFO - joeynmt.training - Epoch   8, Step:    30700, Batch Loss:     1.638906, Batch Acc: 0.523913, Tokens per Sec:     6500, Lr: 0.000300
+2023-04-23 20:30:54,078 - INFO - joeynmt.training - Epoch   8, Step:    30800, Batch Loss:     1.727720, Batch Acc: 0.530800, Tokens per Sec:     6447, Lr: 0.000300
+2023-04-23 20:31:08,191 - INFO - joeynmt.training - Epoch   8, Step:    30900, Batch Loss:     1.593976, Batch Acc: 0.530994, Tokens per Sec:     6470, Lr: 0.000300
+2023-04-23 20:31:22,381 - INFO - joeynmt.training - Epoch   8, Step:    31000, Batch Loss:     1.615273, Batch Acc: 0.536674, Tokens per Sec:     6520, Lr: 0.000300
+2023-04-23 20:31:22,382 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:31:47,414 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.12, ppl:   8.34, acc:   0.46, generation: 25.0282[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:32:58,406 - INFO - joeynmt.training - Epoch   8, Step:    31500, Batch Loss:     1.824859, Batch Acc: 0.527074, Tokens per Sec:     6452, Lr: 0.000300
+2023-04-23 20:32:58,407 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:33:21,459 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.13, ppl:   8.39, acc:   0.46, generation: 23.0486[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:34:33,193 - INFO - joeynmt.training - Epoch   8, Step:    32000, Batch Loss:     1.816269, Batch Acc: 0.530945, Tokens per Sec:     6452, Lr: 0.000300
+2023-04-23 20:34:33,193 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:34:56,008 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.11, ppl:   8.23, acc:   0.46, generation: 22.8112[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:36:06,868 - INFO - joeynmt.training - Epoch   8, Step:    32500, Batch Loss:     1.668838, Batch Acc: 0.540307, Tokens per Sec:     6329, Lr: 0.000300
+2023-04-23 20:36:06,868 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:36:28,194 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.10, ppl:   8.19, acc:   0.46, generation: 21.3217[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:37:42,837 - INFO - joeynmt.training - Epoch   9, Step:    33000, Batch Loss:     1.568329, Batch Acc: 0.550179, Tokens per Sec:     6564, Lr: 0.000300
+2023-04-23 20:37:42,837 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:38:04,104 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.12, ppl:   8.33, acc:   0.46, generation: 21.2623[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:39:15,042 - INFO - joeynmt.training - Epoch   9, Step:    33500, Batch Loss:     1.505672, Batch Acc: 0.547179, Tokens per Sec:     6579, Lr: 0.000300
+2023-04-23 20:39:15,042 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:39:37,892 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.12, ppl:   8.33, acc:   0.46, generation: 22.8456[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:40:48,638 - INFO - joeynmt.training - Epoch   9, Step:    34000, Batch Loss:     1.720230, Batch Acc: 0.539667, Tokens per Sec:     6511, Lr: 0.000300
+2023-04-23 20:40:48,639 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:41:12,588 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.12, ppl:   8.33, acc:   0.46, generation: 23.9456[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:42:24,094 - INFO - joeynmt.training - Epoch   9, Step:    34500, Batch Loss:     1.667112, Batch Acc: 0.545205, Tokens per Sec:     6533, Lr: 0.000300
+2023-04-23 20:42:24,094 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:42:44,831 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.11, ppl:   8.27, acc:   0.46, generation: 20.7329[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:43:55,817 - INFO - joeynmt.training - Epoch   9, Step:    35000, Batch Loss:     1.633240, Batch Acc: 0.540637, Tokens per Sec:     6496, Lr: 0.000300
+2023-04-23 20:43:55,817 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:44:25,218 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.11, ppl:   8.24, acc:   0.46, generation: 29.3968[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:45:37,402 - INFO - joeynmt.training - Epoch   9, Step:    35500, Batch Loss:     1.875486, Batch Acc: 0.542743, Tokens per Sec:     6396, Lr: 0.000300
+2023-04-23 20:45:37,402 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:45:58,892 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.10, ppl:   8.20, acc:   0.46, generation: 21.4862[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:47:10,204 - INFO - joeynmt.training - Epoch   9, Step:    36000, Batch Loss:     1.954569, Batch Acc: 0.538312, Tokens per Sec:     6418, Lr: 0.000300
+2023-04-23 20:47:10,205 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:47:33,682 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.09, ppl:   8.12, acc:   0.46, generation: 23.4737[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:48:44,657 - INFO - joeynmt.training - Epoch   9, Step:    36500, Batch Loss:     1.567259, Batch Acc: 0.538919, Tokens per Sec:     6395, Lr: 0.000300
+2023-04-23 20:48:44,657 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:49:06,091 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.09, ppl:   8.11, acc:   0.46, generation: 21.4301[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:50:17,066 - INFO - joeynmt.training - Epoch  10, Step:    37000, Batch Loss:     1.550043, Batch Acc: 0.557618, Tokens per Sec:     6411, Lr: 0.000300
+2023-04-23 20:50:17,066 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:50:44,603 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.11, ppl:   8.25, acc:   0.46, generation: 27.5336[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:51:54,991 - INFO - joeynmt.training - Epoch  10, Step:    37500, Batch Loss:     1.600198, Batch Acc: 0.553810, Tokens per Sec:     6464, Lr: 0.000300
+2023-04-23 20:51:54,992 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:52:18,770 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.11, ppl:   8.27, acc:   0.46, generation: 23.7739[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:53:29,617 - INFO - joeynmt.training - Epoch  10, Step:    38000, Batch Loss:     1.492953, Batch Acc: 0.556199, Tokens per Sec:     6398, Lr: 0.000300
+2023-04-23 20:53:29,617 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:53:54,257 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.10, ppl:   8.13, acc:   0.47, generation: 24.6355[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:55:04,859 - INFO - joeynmt.training - Epoch  10, Step:    38500, Batch Loss:     1.455612, Batch Acc: 0.550274, Tokens per Sec:     6505, Lr: 0.000300
+2023-04-23 20:55:04,859 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:55:27,124 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.11, ppl:   8.23, acc:   0.46, generation: 22.2608[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:56:38,717 - INFO - joeynmt.training - Epoch  10, Step:    39000, Batch Loss:     1.355448, Batch Acc: 0.548783, Tokens per Sec:     6419, Lr: 0.000300
+2023-04-23 20:56:38,718 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:57:03,915 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.09, ppl:   8.10, acc:   0.46, generation: 25.1932[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:58:14,489 - INFO - joeynmt.training - Epoch  10, Step:    39500, Batch Loss:     1.704317, Batch Acc: 0.553459, Tokens per Sec:     6544, Lr: 0.000300
+2023-04-23 20:58:14,489 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 20:58:37,409 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.09, ppl:   8.11, acc:   0.46, generation: 22.9155[sec], evaluation: 0.0000[sec]
+--
+2023-04-23 20:59:48,731 - INFO - joeynmt.training - Epoch  10, Step:    40000, Batch Loss:     1.688047, Batch Acc: 0.552304, Tokens per Sec:     6492, Lr: 0.000300
+2023-04-23 20:59:48,731 - INFO - joeynmt.prediction - Predicting 500 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-04-23 21:00:13,403 - INFO - joeynmt.prediction - Evaluation result (greedy) loss:   2.10, ppl:   8.15, acc:   0.46, generation: 24.6683[sec], evaluation: 0.0000[sec]

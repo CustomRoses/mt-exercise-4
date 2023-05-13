@@ -1,4 +1,4 @@
-name: "deen_transformer_pre"
+name: "deen_transformer_post"
 joeynmt_version: "2.0.0"
 
 data:
@@ -55,10 +55,10 @@ training:
     validation_freq: 500
     logging_freq: 100
     eval_metric: ["bleu"]
-    model_dir: "models/deen_transformer_pre"
+    model_dir: "models/deen_transformer_post"
     overwrite: False
     shuffle: True
-    use_cuda: False
+    use_cuda: True
     max_output_length: 100
     print_valid_sents: [0, 1, 2, 3, 4]
     label_smoothing: 0.3
