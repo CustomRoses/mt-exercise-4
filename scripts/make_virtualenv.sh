@@ -10,7 +10,7 @@ mkdir -p $base/venvs
 
 # python3.10 needs to be installed on your system
 
-python3 -m virtualenv -p python3.10 $base/venvs/torch3
+python3.10 -m virtualenv -p python3.9 $base/venvs/torch3
 
 echo "To activate your environment:"
 echo "    source $base/venvs/torch3/bin/activate"
